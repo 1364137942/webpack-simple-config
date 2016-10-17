@@ -1,14 +1,14 @@
 {
   "name": "test2",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack参考yeoman下的react-webpack做的简单配置 ",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env=dev --progress --colors --hot --inline",
     "dist": "webpack --env=dist & npm run copy",
     "copy": "copyfiles -f ./src/index.html ./dist"
   },
-  "author": "",
+  "author": "ALI",
   "license": "ISC",
   "dependencies": {
     "babel": "^6.5.2",
